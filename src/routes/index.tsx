@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import type { DocumentHead, Link } from "@builder.io/qwik-city";
+import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
@@ -12,7 +12,7 @@ export default component$(() => {
           height="200"
         />
       </a>
-      <div class="mb-10 doto font-extrabold hover:bg-gradient-to-r text-8xl hover:from-green-800 hover:to-yellow-400 hover:bg-clip-text hover:text-transparent text-white hover:scale-110 transition-all duration-200 relative">
+      <div class="mb-10 doto font-extrabold bg-gradient-to-r from-green-800 to-yellow-400 bg-clip-text text-transparent hover:bg-gradient-to-r text-8xl hover:from-green-400 hover:to-yellow-200 hover:bg-clip-text hover:text-transparent hover:scale-110 transition-all duration-200 relative">
         l&n stem academy
       </div>
       <div class="mt-4 text-2xl">
@@ -43,15 +43,17 @@ export default component$(() => {
         </div>
         <div class="flex flex-col">
           <button class="transition-all duration-200 bg-white text-black px-4 py-2 rounded hover:bg-gradient-to-r hover:bg-purple-400 hover:font-bold hover:text-white">
-            cybersecurity pathway (ic)
+            <a href="/cpic"> cybersecurity pathway (ic) </a>
           </button>
           <button class="transition-all duration-200 bg-white text-black px-4 py-2 rounded hover:bg-gradient-to-r hover:bg-purple-600 hover:font-bold hover:text-white mt-2">
-            advanced cybersecurity pathway (aa)
+            <a href="/ad_cy_pt">advanced cybersecurity pathway (aa) </a>
           </button>
         </div>
         <div class="col-span-2">
           <button class="transition-all duration-200 bg-white text-black px-40 py-2 rounded hover:bg-gradient-to-r hover:from-blue-800 hover:to-purple-800 hover:font-bold hover:text-white">
-            ap capstone diploma in computational science & cybersecurity
+            <a href="/apcap">
+              ap capstone diploma in computational science & cybersecurity
+            </a>
           </button>
         </div>
       </div>
@@ -60,7 +62,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "school of computational science and cybersecurity",
   meta: [
     {
       name: "description",
