@@ -27,6 +27,12 @@ export default component$(() => {
             href={`${import.meta.env.BASE_URL}manifest.json`}
           />
         )}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
+          rel="stylesheet"
+        ></link>
         <RouterHead />
       </head>
       <body lang="en">
