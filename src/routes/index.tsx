@@ -6,7 +6,7 @@ export default component$(() => {
     <div class="bg-black h-screen text-white font-semibold items-center flex flex-col justify-center">
       <a href="https://www.knoxschools.org/landn">
         <img
-          src="lnnstem.png"
+          src="public/lnnstem.png"
           class="absolute scale-50 hover:scale-100 justify-center items-center transition-all duration-200 translate-y-120 -translate-x-25"
           width="200"
           height="200"
